@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Radiomark</string>
+	<string name="home_heading">Radiomark</string>
+	<string name="home_heading_2">Scan for Audiomarks</string>
+	<string name="yourls_url">http://www.ajack.org/shortcode.php?id=</string>
+	<string name="yourls_dialog">Retrieving audiomark details...</string>
+	<string name="yours_error">Could not retrieve details</string>
+</resources>

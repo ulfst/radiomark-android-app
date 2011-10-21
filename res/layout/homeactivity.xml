@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FFFFFF">
+   
+  <TextView
+  	android:id="@+id/home_header"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/home_heading"
+  	android:textColor="#000000"
+  	android:textSize="30dip"
+  	android:paddingTop="10dip"
+  	android:gravity="center" />
+  	
+  <ImageView
+  	android:id="@+id/home_logo"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@id/home_header"
+  	android:src="@drawable/logo"
+  	android:layout_centerInParent="true" />  	
+ 
+  
+  <CheckBox
+  	android:id="@+id/home_scanning_checkbox" 
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_centerInParent="true"
+  	android:layout_below="@id/home_logo"
+  	android:text="Scan for Audiomarks"
+  	android:textColor="#000000"/>
+  	
+  	
+  <RelativeLayout 
+  	android:id="@+id/home_my_radiomarks"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@id/home_scanning_checkbox"
+  	android:layout_marginTop="20dip"
+  	android:focusable="true"
+    android:clickable="true"
+    android:background="@android:drawable/btn_default">
+  	
+  	  <TextView
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentLeft="true" 
+  		android:text="My Radiomarks"
+  		android:textColor="#000000"
+  		android:paddingTop="5dip" />
+  		
+  	  <TextView
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentRight="true" 
+  		android:text=">"
+  		android:textColor="#000000"
+  		android:paddingTop="5dip" />	
+
+  </RelativeLayout>
+  	
+
+</RelativeLayout>
